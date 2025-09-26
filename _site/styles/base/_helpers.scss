@@ -1,0 +1,115 @@
+/******************************************
+HELPER CLASSES
+******************************************/
+
+// Used to remove bullets/numbers, margin and padding from a list element
+.u-no-list {
+  list-style: none !important;
+  margin-left: 0 !important;
+  padding: 0 !important;
+  background: none;
+}
+.u-list-horizontal li {
+    float: left;
+    margin-right: rem-calc(20);
+
+    &:last-of-type {
+        margin-right: 0;
+    }
+}
+.u-no-margin {
+    margin: 0 !important;
+}
+.u-no-padding {
+    padding: 0 !important;
+}
+
+//Align text with input when in field wrapper
+.u-form-right-padding,
+.u-form-right-padding--large-only {
+    padding-right: rem-calc(40)
+}
+
+.u-table,
+.u-table-mobile {
+	display: table;
+	width: 100%;
+
+    &.u-cell-align-top .u-table-cell{
+        vertical-align: top;
+    }
+
+    &.u-cell-align-middle .u-table-cell{
+        vertical-align: middle;
+    }
+}
+.u-table-row {
+	display: table-row;
+}
+.u-table-cell {
+	display: table-cell;
+}
+
+.u-table-small {
+    .u-table-row,
+    .u-table-cell {
+        display: initial;
+    }
+}
+
+.u-gotham-book {
+    font-family: 'Gotham-Book', arial, sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+
+.u-hidden {
+    display: none !important;
+}
+
+.u-word-break {
+    word-break: break-all;
+}
+
+.u-no-border {
+    border: none !important;
+}
+
+.u-fade-out {
+    animation: fadeOut 1s ease forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.u-margin-bottom {
+    margin-bottom: rem-calc(30);
+}
+
+.u-no-highlight {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+//For bullet point list if it goes on two lines
+.u-bullet-point-list {
+    ul {
+        margin-bottom: 0;
+        li {
+            list-style-position: inside;
+            text-indent: -2em;
+            padding-left: 2em;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+/******************************************
+ASH ROBBINS - VARIABLES
+******************************************/
+
+// Base text size
+$pixelBase : 10;
+
+// Colours
+$primary-colour: #d90815;
+$secondary-colour: #58b8ce;
+$tertiary-colour: #F7DA63;
+$black: #000;
+$white: #fefefe;
+$grey: #888;
+$light-grey: #eee;
+
+$divider-color: #e4e4e4;
+
+// Font colours
+$body-text: #393434;
+
+// Variables for site fonts
+@mixin title-font-black {
+    font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+@mixin title-font-heavy {
+    font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+@mixin body-font-regular {
+    font-family: "Source Serif Pro", Georgia, serif;
+    font-weight: 400;
+}
+@mixin body-font-bold {
+    font-family: "Source Serif Pro", Georgia, serif;
+    font-weight: 700;
+}
+
+$body-font: "Source Serif Pro", Georgia, serif;
+$serif-font: "Montserrat", serif;
+
+// Grid system
+$maxColCount: 12;
+$verticalRowSpacing: 2;
+$horizontalSpacing: 1.8;
+$verticalSpacing: 1.8;
+
+// -- //
+$pageWidth: 90 + $horizontalSpacing * 2;
+$pageWidthInner: 90;
+
+$global-radius: 0;
+$default-transition-time: .2s;

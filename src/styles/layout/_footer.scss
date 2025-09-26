@@ -1,0 +1,24 @@
+@use '../variables' as *;
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.2rem;
+    background-color: $black;
+    color: $white;
+
+    a {
+        color: $white;
+
+        &:hover {
+            color: $primary-colour;
+        }
+
+        & + a {
+            margin-left: 3rem;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+@use '../variables' as *;
+/******************************************
+LOGO
+******************************************/
+// .logo,
+// .logo:visited {
+//     display: inline-block;
+//     margin-bottom: rem-calc(50);
+//     padding-bottom: rem-calc(5);
+//     @include title-font-black;
+//     font-size: rem-calc(40);
+//     line-height: 1;
+//     color: $black;
+//     border-bottom: 5px solid $black;
+// }
+
+// @include bp_max(600) {
+//     .logo {
+//         margin-bottom: rem-calc(30);
+//         font-size: rem-calc(30);
+//         border-bottom-width: rem-calc(3);
+//     }
+// }
+
+.header-logo {
+    a {
+        color: $black !important;
+    }
+    
+    img {
+        position: relative;
+        top: -.1rem;
+        height: 3rem;
+        margin-right: .8rem;
+    }
+    
+    span {
+        color: transparent;
+        -webkit-text-stroke-width: 1.5px;
+        -webkit-text-stroke-color: black !important;
+    }
+    
+    .post-hero & {
+        color: white !important;
+        
+        span {
+            -webkit-text-stroke-color: white !important;
+        }
+    }
+}

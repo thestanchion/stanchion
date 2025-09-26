@@ -1,0 +1,26 @@
+@use '../variables' as *;
+/******************************************
+HEADER
+******************************************/
+.header {
+    width: 100%;
+    margin-bottom: rem-calc(60);
+    padding: rem-calc(20 0);
+    border-bottom: 1px solid $divider-color;
+    text-align: center;
+}
+.header--single {
+    margin-bottom: rem-calc(30);
+}
+.header .heading__page {
+    position: relative;
+    margin: rem-calc(0 0 20);
+}
+.header__home-link {
+    display: block;
+    color: $black;
+}
+.header__tagline {
+    color: $white;
+    margin: 0;
+}

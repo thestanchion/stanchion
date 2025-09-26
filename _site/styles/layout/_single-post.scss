@@ -1,0 +1,116 @@
+@use '../variables' as *;
+/******************************************
+POST
+******************************************/
+.heading__page--single {
+    color: $black;
+}
+.post__date,
+.post__categories {
+    text-align: center;
+}
+.post__date {
+    margin-bottom: rem-calc(10);
+    @include title-font-heavy;
+}
+.post__categories {
+    margin-bottom: rem-calc(30);
+}
+.post__content pre code,
+.post__content blockquote > * {
+    display: block;
+    margin-bottom: rem-calc(30);
+}
+.post__content {
+    p {
+        clear: none;
+        @include body-font-regular;
+        font-weight: 400;
+
+        b,
+        strong {
+            @include body-font-bold;
+        }
+
+        a {
+            position: relative;
+            color: $body-text;
+            border-bottom: .2rem solid $primary-colour;
+
+            &:hover {
+                color: $primary-colour;
+            }
+        }
+    }
+
+    iframe {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .left-image,
+    .right-image {
+        width: 50%;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .left-image {
+        float: left;
+        margin: 0 3rem 2rem -3rem;
+    }
+
+    .right-image {
+        float: right;
+        margin: 0 -3rem 2rem 3rem;
+    }
+
+    @media (max-width: 800px) {
+        .left-image,
+        .right-image {
+            clear: both;
+            width: 100%;
+            margin: 0 auto 2rem;
+
+            img {
+                display: block;
+                width: 90%;
+                margin: auto;
+            }
+        }
+    }
+}
+
+.image__full-width {
+    display: block;
+    margin: 3rem 0;
+
+    img {
+        width: 100vw;
+        max-width: none;
+        position: relative;
+        left: 50%;
+        transform: translateX( -50% );
+    }
+
+    figcaption {
+        margin-top: 1rem;
+        font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 1.4rem;
+        font-style: italic;
+        font-weight: 300;
+        color: $grey;
+    }
+
+    @media (max-width: 800px) {
+
+        img {
+            left: -2rem;
+            transform: none;
+            max-width: 100vw;
+        }
+    }
+}

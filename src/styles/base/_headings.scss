@@ -1,0 +1,124 @@
+@use '../variables' as *;
+/******************************************
+HEADINGS
+******************************************/
+/**
+ * By default, all headings are always ‘just a bit bigger’ than body copy.
+ * Any font, size, color, etc. styling is done based on the purpose of the heading.
+ * See classes below which detail styles for specific heading uses.
+ */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    @include title-font-black;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: rem-calc(30);
+}
+h2 {
+    font-size: rem-calc(34);
+}
+h3 {
+    font-size: rem-calc(30);
+}
+h4 {
+    font-size: rem-calc(26);
+}
+h5 {
+    font-size: rem-calc(22);
+}
+h6 {
+    font-size: rem-calc(18);
+}
+
+.heading--site {
+    font-size: 14vmin;
+}
+
+.heading--tagline {
+    display: inline;
+    padding-top: rem-calc(10);
+    font-size: 4vmin;
+    border-top: 5px solid $white;
+}
+
+.heading--page {
+    font-size: 9rem;
+    margin-bottom: rem-calc(50);
+    color: #fff;
+
+    @media (max-width: 1000px) {
+        font-size: 5rem;
+    }
+
+    @media (max-width: 500px) {
+        margin-bottom: 2rem;
+        font-size: 3rem;
+    }
+}
+
+.heading--section {
+    font-size: rem-calc(24);
+    color: $secondary-colour;
+    margin-bottom: rem-calc(30);
+}
+
+.heading--post {
+    font-size: rem-calc(26);
+    color: $black;
+    margin: 0 0 1rem;
+}
+
+.heading--title {
+    font-size: rem-calc(26);
+}
+
+.heading--subtitle,
+h6 {
+    font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 700;
+    color: black;
+    text-transform: none;
+
+    @media (max-width: 800px) {
+        line-height: 1.4;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 1.8rem;
+    }
+}
+
+.heading--source {
+    display: inline-block;
+    margin-top: 1rem;
+    border-top: 2px solid black;
+    font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: 700;
+    color: black;
+    text-transform: none;
+
+    span {
+        font-weight: 300;
+    }
+}
+
+.heading--siteTitle {
+    position: absolute;
+    left: 2rem;
+    top: 1.8rem;
+    @include title-font-black;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    color: #fff;
+}

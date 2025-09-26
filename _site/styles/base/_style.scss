@@ -1,0 +1,337 @@
+@use '../variables' as *;
+
+// --------------- // Generic site styles // --------------- //
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+// HTML5 display-role reset for older browsers
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+    display: block;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+body {
+    font: 62.5%/1.2 "Source Serif Pro", Georgia, serif;
+    color: $body-text;
+    word-wrap: break-word;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    background-color: $white;
+
+    @media (max-width: 500px) {
+        font-size: 1.6rem;
+    }
+}
+#app {
+    margin-bottom: rem-calc(60);
+}
+.wrapper {
+    width: 80vw;
+    max-width: rem-calc(760);
+    margin: 2rem auto 10rem;
+
+    @media (max-width: 800px) {
+        width: 100%;
+        max-width: none;
+        margin-top: 0;
+        padding: 0 2rem;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $black;
+    font-family: inherit;
+    margin: rem-calc(0 0 30);
+}
+h1 {
+    font-size: rem-calc(34);
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: rem-calc(28);
+}
+
+h3 {
+    font-size: rem-calc(22);
+}
+
+h4 {
+    font-size: rem-calc(20);
+}
+
+h5 {
+    font-size: rem-calc(18);
+}
+
+h6 {
+    font-size: rem-calc(16);
+}
+
+h2:first-child,
+h3:first-child,
+h4:first-child {
+    margin-top: 0;
+}
+
+p {
+    margin: rem-calc(0 0 20 0);
+    vertical-align: top;
+    display: block;
+    clear: both;
+}
+
+li {
+    margin-bottom: rem-calc(8);
+}
+
+a {
+    color: $primary-colour;
+    text-decoration: none;
+    transition: color linear .1s;
+}
+
+a:hover {
+    color: $black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+img {
+    max-width: 100%;
+
+    &.left {
+        padding: rem-calc(5 2 12 0);
+        vertical-align: top;
+        float: left;
+    }
+
+    &.right {
+        padding: rem-calc(5 0 12 2);
+        float: right;
+    }
+}
+
+[hidden] {
+    display: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: none;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+em {
+    font-weight: 700;
+    font-style: italic;
+}
+
+button {
+    font-size: rem-calc(15);
+    border: none;
+    vertical-align: middle;
+    line-height: 1.2;
+    background-color: transparent;
+    appearance: none;
+}
+
+hr {
+    margin: rem-calc(3 0);
+    border: none;
+    border-top: 3px solid $primary-colour;
+}
+
+address {
+    margin: rem-calc(0 0 12 0);
+    font-size: rem-calc(16);
+    line-height: 1.4;
+}
+
+// --------------- //Selection styles // --------------- //
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+// --------------- // Alignment of tags // --------------- //
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+// --------------- // Hide and show content // --------------- //
+// Hide visually and from screen readers:
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+// Hide only visually, but have it available for screen readers
+.visuallyhidden {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+// Extends the .visuallyhidden class to allow the element
+// to be focusable when navigated to via the keyboard
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+// --------------- // Angular snippets // --------------- //
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
+    display: none !important;
+}
+
+// --------------- // Responsive video // --------------- //
+.media_embed {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
+.media_embed .map,
+.media_embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+// --------------- // Mobile optimizations // --------------- //
+* {
+    -webkit-tap-highlight-color: rgba(#b3d4fc, 0.3);
+}
+
+// --------------- // Blockquote  // --------------- //
+blockquote {
+    overflow: hidden;
+    padding: rem-calc(30 0 0);
+    margin: rem-calc(0 0 30 0);
+    border-left: rem-calc(10) solid $black;
+
+    p {
+        font-size: rem-calc(16);
+    }
+
+    footer {
+        text-align: right;
+    }
+
+    cite {
+        font-size: rem-calc(16);
+        color: $body-text;
+
+        &:before {
+            content: '- ';
+        }
+    }
+    a {
+        color: $black;
+    }
+}
+em {
+    font-style: italic;
+    font-weight: normal;
+}
+
+// --------------- // Forms  // --------------- //
+label {
+  cursor: pointer;
+}
+input[type=text],
+input[type=email],
+input[type=search],
+select {
+  box-sizing: border-box;
+  height: rem-calc(48);
+  padding: rem-calc(0 16);
+  font-size: rem-calc(16);
+  border-style: solid;
+}
+select {
+  appearance: none;
+  cursor: pointer;
+  white-space: nowrap;
+  padding-right: rem-calc(45);
+}
+.select {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: rem-calc(20);
+    right: rem-calc(20);
+    height: rem-calc(16);
+    width: rem-calc(16);
+    border: 8px solid transparent;
+    border-top-color: $body-text;
+  }
+}

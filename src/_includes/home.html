@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{{ title | default: "The Stanchion" }}</title>
+		{% include "head.html" %}
+	</head>
+	<body>
+		<div class="hero hero--home">
+            <h1 class="c-heading--page header-logo">
+                <a href="/" alt="The Stanchion">
+					<img src="img/logo-v1.png" alt="The Stanchion logo" />
+                    <span>The</span> Stanchion
+                </a>
+            </h1>
+        </div>
+        {% include "nav.html" %}
+        {% include "nav-trigger.html" %}
+		<main>
+			{{ content }}
+		</main>
+	</body>
+</html>

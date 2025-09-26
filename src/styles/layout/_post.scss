@@ -1,0 +1,119 @@
+@use '../variables' as *;
+/******************************************
+POST
+******************************************/
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 3rem;
+    padding: 0 10%;
+    background-color: $primary-colour;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+    &--home {
+        position: sticky;
+        top: 0;
+        background-color: $white;
+        z-index: 1;
+        align-items: flex-start;
+        height: 8rem;
+        margin-bottom: 0;
+        padding: 0 2rem;
+
+        .heading--page {
+            margin: 0;
+            font-size: 2.4rem;
+            color: $primary-colour;
+
+            a:visited {
+                color: $primary-colour;
+            }
+
+            a:hover {
+                color: $black;
+            }
+        }
+
+        @media (max-width: 800px) {
+
+            height: 6rem;
+        }
+    }
+}
+.post__date {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    font-size: rem-calc(16);
+    color: #fff;
+    border-top: .4rem solid #fff;
+    text-transform: uppercase;
+}
+.post__category {
+    display: flex;
+
+    &::after {
+        content: '';
+        display: inline-block;
+        position: relative;
+        top: -1px;
+        height: 22px;
+        width: 4px;
+        background-color: #fff;
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+}
+.post__category + .post__category:before {
+    display: inline-block;
+    content: ",";
+    margin-right: rem-calc(4);
+}
+.post {
+
+    pre,
+    code {
+        background-color: $light-grey;
+        border: 0;
+        border-radius: 0;
+    }
+    pre {
+        padding: rem-calc(16 20);
+
+        code {
+            padding: 0;
+            color: $body-text;
+        }
+    }
+    code {
+        padding: rem-calc(3 6);
+        color: $primary-colour;
+        font-size: rem-calc(16);
+    }
+    blockquote {
+        margin: rem-calc(30 0);
+        padding: rem-calc(0 0 0 30);
+        border-left: 10px solid $primary-colour;
+        color: $body-text;
+
+        p {
+            width: auto;
+            margin-top: 0;
+            margin-bottom: 0;
+            @include title-font-black;
+            font-size: rem-calc(18);
+            text-transform: uppercase;
+        }
+
+        @media (max-width: 600px) {
+            padding-left: 0;
+        }
+    }
+}
