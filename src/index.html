@@ -5,13 +5,15 @@ layout: home.html
 <div class="post-list">
     <ul class="post-list__list">
         {% for post in collections.post reversed %}
-        <li class="post-list__item" style="background-image: url(/img/{{ post.data.hero }});">
-            <a class="post-list__link" href="{{ post.url }}">
-                <h3 class="heading--post">{{ post.data.title | escape }}</h3>
-                {% assign date_format = "%b %-d, %Y" %}
-                <span class="post__date">{{ post.data.date | date: date_format }}</span>
-            </a>
-        </li>
+        {% if post.data.published %}
+            <li class="post-list__item" style="background-image: url(/img/{{ post.data.hero }});">
+                <a class="post-list__link" href="{{ post.url }}">
+                    <h3 class="heading--post">{{ post.data.title | escape }}</h3>
+                    {% assign date_format = "%b %-d, %Y" %}
+                    <span class="post__date">{{ post.data.date | date: date_format }}</span>
+                </a>
+            </li>
+        {% endif %}
         {% endfor %}
     </ul>
 </div>

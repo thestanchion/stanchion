@@ -1,5 +1,5 @@
 {
 	"layout": "post.html",
 	"tags": "post",
-	"permalink": "/{{ page.fileSlug }}/"
+	"permalink": "/posts/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.date | date: '%d' }}/{{ page.fileSlug }}/index.html"
 }
