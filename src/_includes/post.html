@@ -1,16 +1,43 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>{{ title }} | The Stanchion</title>
-	</head>
-	<body>
-		<header>
-			<h1>{{ title }}</h1>
-		</header>
-		<main>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ title }} | The Stanchion</title>
+	{% include "head.html" %}
+</head>
+
+<body>
+	<header class="hero post-hero" style="background-image: url(/img/{{ hero }});">
+		<a href="/" class="heading--siteTitle header-logo" alt="The Stanchion">
+			<img src="/img/logo-v1_white.png" alt="The Stanchion logo" />
+			<span>The</span> Stanchion
+		</a>
+		<h1 class="heading--page">{{ title | escape }}</h1>
+		<p class="post__date">
+			<span class="post__category">{{ categories | replace: '-', ' ' | capitalize }}</span>
+			<time class="dt-published" datetime="{{ date | date_to_xmlschema }}" itemprop="datePublished">
+				{% assign date_format = "%b %-d, %Y" %}
+				{{ 	date | date: date_format }}
+			</time>
+		</p>
+	</header>
+	<article class="post h-entry wrapper" itemscope itemtype="http://schema.org/BlogPosting">
+		<div class="post__content" itemprop="articleBody">
+			{% if subtitle %}
+				<h2 class="heading--subtitle">{{ subtitle | escape }}</h2>
+			{% endif %}
+
 			{{ content }}
-		</main>
-	</body>
+
+			{% if hero_source != '' %}
+				<h3 class="heading--source">Lead photo: <span>{{ hero_source | escape }}</span></h3>
+			{% endif %}
+		</div>
+	</article>
+
+	{% include "footer-scripts.html" %}
+</body>
+
 </html>

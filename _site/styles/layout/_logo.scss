@@ -8,7 +8,7 @@ LOGO
 //     margin-bottom: rem-calc(50);
 //     padding-bottom: rem-calc(5);
 //     @include title-font-black;
-//     font-size: rem-calc(40);
+//     font-size: 4rem;
 //     line-height: 1;
 //     color: $black;
 //     border-bottom: 5px solid $black;
@@ -17,7 +17,7 @@ LOGO
 // @include bp_max(600) {
 //     .logo {
 //         margin-bottom: rem-calc(30);
-//         font-size: rem-calc(30);
+//         font-size: 3rem;
 //         border-bottom-width: rem-calc(3);
 //     }
 // }

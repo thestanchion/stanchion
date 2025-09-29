@@ -20,8 +20,11 @@ I sat there watching the Valencia game last night bored out of my skull because 
 
 And I start to ask, why is that? Why are we so bereft of ideas? It looks to me like we have too many players that don't fit into the same system, who could be good in the correct systems individually, but when playing together in this team it doesn't seem to work.
 
-{: .left-image }
+<span class="left-image">
+
 ![Lukaku attempts a stepover vs Valencia](/img/lukaku-valencia.jpg)
+
+</span>
 
 A good example of that would be Lukaku. The guy is your archetypal big number 9; he cannot play football with his feet, he's terrible at dribbling, he has no ability to beat a man, but he's fast and he's powerful and his main asset is his strength in the air. When you knowingly buy a player like that you can't then try to play nice futbol into his feet and use him as a link forward. The way we need to play to get the best out of him is to play with two wingers who'll get the ball out of their feet and whip balls into the box for him. Even more so when you have Fellaini in the team, as that seems to be something Mourinho is persisting with at the moment. Sadly he's become one of his most trusted and most used players which is just ridiculous for a club like this.
 
@@ -43,8 +46,11 @@ Sanchez is a strange one because I'm not sure if the player is in a terrible run
 
 It's not working at the moment and the biggest depiction of all the problems at the club is this ongoing feud between Pogba and Mourinho. They want to keep getting one over on each other, doing silly little gestures to the camera, making snide little remarks in interviews, do stupid things on social media to get one over on the other. This is one of your most influential players in the squad and your manager; they should be the strongest unit in the club, the two of these guys should be always on the same page, always pushing in the same direction, wanting to do the same the best thing for the good of the club. But it looks like all they want to do is drive a wedge between themselves at every opportunity.
 
-{: .right-image }
+<span class="right-image">
+
 ![Pogba vs Valencia](/img/pogba-valencia.jpg)
+
+</span>
 
 So something's going to give eventually. Either Pogba is going to leave or the manager will leave, and considering how much we paid for the player and the potential he has shown in certain games - more often than not for France than for Man United - it would cost the club so much more to lose the player then it would to lose the manager. If you lose the player you're probably also going to lose the trust and commitment from a lot of other players in the squad because they will stick together. Especially when you got such a tight-knit group of mates like Rashford, Lingard, Pogba and Lukaku. These guys all get on well and you can be sure that they would take each other's side over the manager, if not publicly then definitely behind closed doors
 

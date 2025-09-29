@@ -1,18 +1,12 @@
-/******************************************
-// Primary Navigation
-// Authors: Ash Robbins
-// Created date: 31/01/2017
-// Notes:
-******************************************/
-$(".c-nav-trigger").on("click", function() {
-    const _this = $(this);
-    const nav = $(".c-nav");
+const navTrigger = document.querySelector(".nav-trigger");
+navTrigger.addEventListener("click", () => {
+    const nav = document.querySelector(".nav");
 
-    if (_this.hasClass("active")) {
-        _this.removeClass("active");
-        nav.removeClass("open");
+    if (navTrigger.classList.contains("active")) {
+        navTrigger.classList.remove("active");
+        nav.classList.remove("open");
     } else {
-        _this.addClass("active");
-        nav.addClass("open");
+        navTrigger.classList.add("active");
+        nav.classList.add("open");
     }
 });

@@ -500,14 +500,14 @@ FONTS
 ******************************************/
 @font-face {
   font-family: "Antonio";
-  src: url("/assets/fonts/antonio-bold-webfont.woff2") format("woff2"), url("/assets/fonts/antonio-bold-webfont.woff") format("woff");
+  src: url("/fonts/antonio-bold-webfont.woff2") format("woff2"), url("/fonts/antonio-bold-webfont.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "Antonio";
-    src: url("/assets/fonts/antonio-bold-webfont.svg#Antonio") format("svg");
+    src: url("/fonts/antonio-bold-webfont.svg#Antonio") format("svg");
   }
 }
 *,
@@ -583,28 +583,28 @@ h6 {
 }
 
 h1 {
-  font-size: rem-calc(34);
+  font-size: 3.4rem;
   line-height: 1.2;
 }
 
 h2 {
-  font-size: rem-calc(28);
+  font-size: 2.8rem;
 }
 
 h3 {
-  font-size: rem-calc(22);
+  font-size: 2.2rem;
 }
 
 h4 {
-  font-size: rem-calc(20);
+  font-size: 2rem;
 }
 
 h5 {
-  font-size: rem-calc(18);
+  font-size: 1.8rem;
 }
 
 h6 {
-  font-size: rem-calc(16);
+  font-size: 1.6rem;
 }
 
 h2:first-child,
@@ -695,7 +695,7 @@ hr {
 
 address {
   margin: rem-calc(0 0 12 0);
-  font-size: rem-calc(16);
+  font-size: 1.6rem;
   line-height: 1.4;
 }
 
@@ -775,13 +775,13 @@ blockquote {
   border-left: rem-calc(10) solid #000;
 }
 blockquote p {
-  font-size: rem-calc(16);
+  font-size: 1.6rem;
 }
 blockquote footer {
   text-align: right;
 }
 blockquote cite {
-  font-size: rem-calc(16);
+  font-size: 1.6rem;
   color: #393434;
 }
 blockquote cite:before {
@@ -807,7 +807,7 @@ select {
   box-sizing: border-box;
   height: rem-calc(48);
   padding: rem-calc(0 16);
-  font-size: rem-calc(16);
+  font-size: 1.6rem;
   border-style: solid;
 }
 
@@ -861,23 +861,23 @@ h6 {
 }
 
 h2 {
-  font-size: rem-calc(34);
+  font-size: 3.4rem;
 }
 
 h3 {
-  font-size: rem-calc(30);
+  font-size: 3rem;
 }
 
 h4 {
-  font-size: rem-calc(26);
+  font-size: 2.6rem;
 }
 
 h5 {
-  font-size: rem-calc(22);
+  font-size: 2.2rem;
 }
 
 h6 {
-  font-size: rem-calc(18);
+  font-size: 1.8rem;
 }
 
 .heading--site {
@@ -909,19 +909,19 @@ h6 {
 }
 
 .heading--section {
-  font-size: rem-calc(24);
+  font-size: 2.4rem;
   color: #58b8ce;
-  margin-bottom: rem-calc(30);
+  margin-bottom: 3rem;
 }
 
 .heading--post {
-  font-size: rem-calc(26);
+  font-size: 2.6rem;
   color: #000;
   margin: 0 0 1rem;
 }
 
 .heading--title {
-  font-size: rem-calc(26);
+  font-size: 2.6rem;
 }
 
 .heading--subtitle,
@@ -1217,7 +1217,7 @@ POST
   display: flex;
   justify-content: center;
   padding: 0;
-  font-size: rem-calc(16);
+  font-size: 1.6rem;
   color: #fff;
   border-top: 0.4rem solid #fff;
   text-transform: uppercase;
@@ -1260,7 +1260,7 @@ POST
 .post code {
   padding: rem-calc(3 6);
   color: #d90815;
-  font-size: rem-calc(16);
+  font-size: 1.6rem;
 }
 .post blockquote {
   margin: rem-calc(30 0);
@@ -1275,7 +1275,7 @@ POST
   font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 900;
   font-style: italic;
-  font-size: rem-calc(18);
+  font-size: 1.8rem;
   text-transform: uppercase;
 }
 @media (max-width: 600px) {

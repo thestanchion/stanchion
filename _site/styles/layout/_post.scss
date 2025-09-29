@@ -51,7 +51,7 @@ POST
     display: flex;
     justify-content: center;
     padding: 0;
-    font-size: rem-calc(16);
+    font-size: 1.6rem;
     color: #fff;
     border-top: .4rem solid #fff;
     text-transform: uppercase;
@@ -95,7 +95,7 @@ POST
     code {
         padding: rem-calc(3 6);
         color: $primary-colour;
-        font-size: rem-calc(16);
+        font-size: 1.6rem;
     }
     blockquote {
         margin: rem-calc(30 0);
@@ -108,7 +108,7 @@ POST
             margin-top: 0;
             margin-bottom: 0;
             @include title-font-black;
-            font-size: rem-calc(18);
+            font-size: 1.8rem;
             text-transform: uppercase;
         }
 

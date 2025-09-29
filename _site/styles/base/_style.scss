@@ -69,28 +69,28 @@ h6 {
     margin: rem-calc(0 0 30);
 }
 h1 {
-    font-size: rem-calc(34);
+    font-size: 3.4rem;
     line-height: 1.2;
 }
 
 h2 {
-    font-size: rem-calc(28);
+    font-size: 2.8rem;
 }
 
 h3 {
-    font-size: rem-calc(22);
+    font-size: 2.2rem;
 }
 
 h4 {
-    font-size: rem-calc(20);
+    font-size: 2rem;
 }
 
 h5 {
-    font-size: rem-calc(18);
+    font-size: 1.8rem;
 }
 
 h6 {
-    font-size: rem-calc(16);
+    font-size: 1.6rem;
 }
 
 h2:first-child,
@@ -183,7 +183,7 @@ hr {
 
 address {
     margin: rem-calc(0 0 12 0);
-    font-size: rem-calc(16);
+    font-size: 1.6rem;
     line-height: 1.4;
 }
 
@@ -274,7 +274,7 @@ blockquote {
     border-left: rem-calc(10) solid $black;
 
     p {
-        font-size: rem-calc(16);
+        font-size: 1.6rem;
     }
 
     footer {
@@ -282,7 +282,7 @@ blockquote {
     }
 
     cite {
-        font-size: rem-calc(16);
+        font-size: 1.6rem;
         color: $body-text;
 
         &:before {
@@ -309,7 +309,7 @@ select {
   box-sizing: border-box;
   height: rem-calc(48);
   padding: rem-calc(0 16);
-  font-size: rem-calc(16);
+  font-size: 1.6rem;
   border-style: solid;
 }
 select {
