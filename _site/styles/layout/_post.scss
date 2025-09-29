@@ -74,7 +74,7 @@ POST
 .post__category + .post__category:before {
     display: inline-block;
     content: ",";
-    margin-right: rem-calc(4);
+    margin-right: .4rem;
 }
 .post {
 
@@ -85,7 +85,7 @@ POST
         border-radius: 0;
     }
     pre {
-        padding: rem-calc(16 20);
+        padding: 1.6rem 2rem;
 
         code {
             padding: 0;
@@ -93,13 +93,13 @@ POST
         }
     }
     code {
-        padding: rem-calc(3 6);
+        padding: .3rem .6rem;
         color: $primary-colour;
         font-size: 1.6rem;
     }
     blockquote {
-        margin: rem-calc(30 0);
-        padding: rem-calc(0 0 0 30);
+        margin: 3rem 0;
+        padding: 0 0 0 3rem;
         border-left: 10px solid $primary-colour;
         color: $body-text;
 

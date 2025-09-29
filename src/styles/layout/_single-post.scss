@@ -10,16 +10,16 @@ POST
     text-align: center;
 }
 .post__date {
-    margin-bottom: rem-calc(10);
+    margin-bottom: 1rem;
     @include title-font-heavy;
 }
 .post__categories {
-    margin-bottom: rem-calc(30);
+    margin-bottom: 3rem;
 }
 .post__content pre code,
 .post__content blockquote > * {
     display: block;
-    margin-bottom: rem-calc(30);
+    margin-bottom: 3rem;
 }
 .post__content {
     p {

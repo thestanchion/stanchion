@@ -34,7 +34,10 @@ I wonder whether they only stuck with Klopp because he was a name, whereas it mi
 
 You can't expect a guy to come in from Molde and automatically take a mid table squad to the title, or even the top four. We need to have realistic expectations and most importantly a bit of patience. Ole has clearly set out how he wants to play and the values he believes should run through a United team. We want a return to slick, attacking, exciting football and that's what he spent his whole career being a part of. I believe it will come but it won't happen overnight.
 
-<picture class="image__full-width"> <img src="/img/2019-09-30-Solskjaer250219_0.jpg" alt="Ole thumbs up" /> <figcaption>It'll take time before we see Ole's plans falling into place</figcaption> </picture>
+<picture class="image__full-width">
+  <img src="/img/2019-09-30-Solskjaer250219_0.jpg" alt="Ole thumbs up" />
+  <figcaption>It'll take time before we see Ole's plans falling into place</figcaption>
+</picture>
 
 He is making steps in the right direction though. The signings of Maguire, Wan-Bissaka and James are all additions that improve the squad, and actually improve the starting line up too. They have probably been our three best players so far this season. By signing players that are young, hungry and most importantly, want to play for Manchester United Ole is moving away from the wasted years where we've chucked money at big names and expected trophies.
 

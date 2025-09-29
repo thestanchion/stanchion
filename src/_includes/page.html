@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title | default: "The Stanchion" }}</title>
+    {% include "head.html" %}
+</head>
+
+<body>
+    {% include "header.html" %}
+    {% include "nav.html" %}
+    {% include "nav-trigger.html" %}
+    <main>
+        <article class="post h-entry wrapper" itemscope itemtype="http://schema.org/BlogPosting">
+
+            <h1 class="heading--title">{{ title | escape }}</h1>
+
+            <div class="post__content" itemprop="articleBody">
+                {% if subtitle %}
+                <h2 class="heading--subtitle">{{ subtitle | escape }}</h2>
+                {% endif %}
+
+                {{ content }}
+            </div>
+        </article>
+    </main>
+
+    {% include "footer-scripts.html" %}
+    {% include "footer.html" %}
+</body>
+
+</html>

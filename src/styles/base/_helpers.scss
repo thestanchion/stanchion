@@ -11,7 +11,7 @@ HELPER CLASSES
 }
 .u-list-horizontal li {
     float: left;
-    margin-right: rem-calc(20);
+    margin-right: 2rem;
 
     &:last-of-type {
         margin-right: 0;
@@ -27,7 +27,7 @@ HELPER CLASSES
 //Align text with input when in field wrapper
 .u-form-right-padding,
 .u-form-right-padding--large-only {
-    padding-right: rem-calc(40)
+    padding-right: 4rem;
 }
 
 .u-table,
@@ -89,7 +89,7 @@ HELPER CLASSES
 }
 
 .u-margin-bottom {
-    margin-bottom: rem-calc(30);
+    margin-bottom: 3rem;
 }
 
 .u-no-highlight {

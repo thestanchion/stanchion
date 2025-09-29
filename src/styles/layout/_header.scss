@@ -4,17 +4,17 @@ HEADER
 ******************************************/
 .header {
     width: 100%;
-    margin-bottom: rem-calc(60);
-    padding: rem-calc(20 0);
+    margin-bottom: 6rem;
+    padding: 2rem 0;
     border-bottom: 1px solid $divider-color;
     text-align: center;
 }
 .header--single {
-    margin-bottom: rem-calc(30);
+    margin-bottom: 3rem;
 }
 .header .heading__page {
     position: relative;
-    margin: rem-calc(0 0 20);
+    margin: 0 0 2rem;
 }
 .header__home-link {
     display: block;

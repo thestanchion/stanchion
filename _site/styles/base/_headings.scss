@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin-top: rem-calc(30);
+    margin-top: 3rem;
 }
 h2 {
     font-size: 3.4rem;
@@ -28,13 +28,13 @@ h3 {
     font-size: 3rem;
 }
 h4 {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
 }
 h5 {
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 h6 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 .heading--site {
@@ -43,14 +43,14 @@ h6 {
 
 .heading--tagline {
     display: inline;
-    padding-top: rem-calc(10);
+    padding-top: 1rem;
     font-size: 4vmin;
     border-top: 5px solid $white;
 }
 
 .heading--page {
     font-size: 9rem;
-    margin-bottom: rem-calc(50);
+    margin-bottom: 5rem;
     color: #fff;
 
     @media (max-width: 1000px) {
@@ -76,7 +76,7 @@ h6 {
 }
 
 .heading--title {
-    font-size: 2.6rem;
+    font-size: 3.4rem;
 }
 
 .heading--subtitle,

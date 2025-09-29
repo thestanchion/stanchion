@@ -396,7 +396,7 @@ HELPER CLASSES
 
 .u-list-horizontal li {
   float: left;
-  margin-right: rem-calc(20);
+  margin-right: 2rem;
 }
 .u-list-horizontal li:last-of-type {
   margin-right: 0;
@@ -412,7 +412,7 @@ HELPER CLASSES
 
 .u-form-right-padding,
 .u-form-right-padding--large-only {
-  padding-right: rem-calc(40);
+  padding-right: 4rem;
 }
 
 .u-table,
@@ -473,7 +473,7 @@ HELPER CLASSES
   }
 }
 .u-margin-bottom {
-  margin-bottom: rem-calc(30);
+  margin-bottom: 3rem;
 }
 
 .u-no-highlight {
@@ -554,12 +554,12 @@ body {
 }
 
 #app {
-  margin-bottom: rem-calc(60);
+  margin-bottom: 6rem;
 }
 
 .wrapper {
   width: 80vw;
-  max-width: rem-calc(760);
+  max-width: 76rem;
   margin: 2rem auto 10rem;
 }
 @media (max-width: 800px) {
@@ -579,7 +579,7 @@ h5,
 h6 {
   color: #000;
   font-family: inherit;
-  margin: rem-calc(0 0 30);
+  margin: 0 0 3rem;
 }
 
 h1 {
@@ -614,14 +614,14 @@ h4:first-child {
 }
 
 p {
-  margin: rem-calc(0 0 20 0);
+  margin: 0 0 2rem 0;
   vertical-align: top;
   display: block;
   clear: both;
 }
 
 li {
-  margin-bottom: rem-calc(8);
+  margin-bottom: 0.8rem;
 }
 
 a {
@@ -643,12 +643,12 @@ img {
   max-width: 100%;
 }
 img.left {
-  padding: rem-calc(5 2 12 0);
+  padding: 0.5rem 0.2rem 1.2rem 0;
   vertical-align: top;
   float: left;
 }
 img.right {
-  padding: rem-calc(5 0 12 2);
+  padding: 0.5rem 0 1.2rem 0.2rem;
   float: right;
 }
 
@@ -679,7 +679,7 @@ em {
 }
 
 button {
-  font-size: rem-calc(15);
+  font-size: 1.5rem;
   border: none;
   vertical-align: middle;
   line-height: 1.2;
@@ -688,13 +688,13 @@ button {
 }
 
 hr {
-  margin: rem-calc(3 0);
+  margin: 0.3rem 0;
   border: none;
   border-top: 3px solid #d90815;
 }
 
 address {
-  margin: rem-calc(0 0 12 0);
+  margin: 0 0 1.2rem 0;
   font-size: 1.6rem;
   line-height: 1.4;
 }
@@ -770,9 +770,9 @@ video {
 
 blockquote {
   overflow: hidden;
-  padding: rem-calc(30 0 0);
-  margin: rem-calc(0 0 30 0);
-  border-left: rem-calc(10) solid #000;
+  padding: 3rem 0 0;
+  margin: 0 0 3rem 0;
+  border-left: 1rem solid #000;
 }
 blockquote p {
   font-size: 1.6rem;
@@ -805,8 +805,8 @@ input[type=email],
 input[type=search],
 select {
   box-sizing: border-box;
-  height: rem-calc(48);
-  padding: rem-calc(0 16);
+  height: 4.8rem;
+  padding: 0 1.6rem;
   font-size: 1.6rem;
   border-style: solid;
 }
@@ -815,7 +815,7 @@ select {
   appearance: none;
   cursor: pointer;
   white-space: nowrap;
-  padding-right: rem-calc(45);
+  padding-right: 4.5rem;
 }
 
 .select {
@@ -827,10 +827,10 @@ select {
   content: "";
   display: block;
   position: absolute;
-  top: rem-calc(20);
-  right: rem-calc(20);
-  height: rem-calc(16);
-  width: rem-calc(16);
+  top: 2rem;
+  right: 2rem;
+  height: 1.6rem;
+  width: 1.6rem;
   border: 8px solid transparent;
   border-top-color: #393434;
 }
@@ -857,7 +857,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: rem-calc(30);
+  margin-top: 3rem;
 }
 
 h2 {
@@ -869,15 +869,15 @@ h3 {
 }
 
 h4 {
-  font-size: 2.6rem;
+  font-size: 2.4rem;
 }
 
 h5 {
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 h6 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .heading--site {
@@ -886,14 +886,14 @@ h6 {
 
 .heading--tagline {
   display: inline;
-  padding-top: rem-calc(10);
+  padding-top: 1rem;
   font-size: 4vmin;
   border-top: 5px solid #fefefe;
 }
 
 .heading--page {
   font-size: 9rem;
-  margin-bottom: rem-calc(50);
+  margin-bottom: 5rem;
   color: #fff;
 }
 @media (max-width: 1000px) {
@@ -921,7 +921,7 @@ h6 {
 }
 
 .heading--title {
-  font-size: 2.6rem;
+  font-size: 3.4rem;
 }
 
 .heading--subtitle,
@@ -978,19 +978,19 @@ HEADER
 ******************************************/
 .header {
   width: 100%;
-  margin-bottom: rem-calc(60);
-  padding: rem-calc(20 0);
+  margin-bottom: 6rem;
+  padding: 2rem 0;
   border-bottom: 1px solid #e4e4e4;
   text-align: center;
 }
 
 .header--single {
-  margin-bottom: rem-calc(30);
+  margin-bottom: 3rem;
 }
 
 .header .heading__page {
   position: relative;
-  margin: rem-calc(0 0 20);
+  margin: 0 0 2rem;
 }
 
 .header__home-link {
@@ -1024,9 +1024,10 @@ HEADER
   margin-left: 3rem;
 }
 
-/******************************************
-LOGO
-******************************************/
+.home .footer {
+  margin-top: 2rem;
+}
+
 .header-logo a {
   color: #000 !important;
 }
@@ -1066,8 +1067,8 @@ NAV
   position: absolute;
   top: 2.6rem;
   right: 2rem;
-  width: rem-calc(30);
-  padding: rem-calc(0 3);
+  width: 3rem;
+  padding: 0 0.3rem;
 }
 .nav-trigger path {
   opacity: 1;
@@ -1115,6 +1116,7 @@ NAV
 }
 .nav.open {
   right: 0;
+  box-shadow: 0 0 3rem #e4e4e4;
 }
 
 .nav__item {
@@ -1142,10 +1144,10 @@ NAV
   content: "";
   display: block;
   position: absolute;
-  right: rem-calc(1);
-  bottom: rem-calc(-3);
-  left: rem-calc(1);
-  height: rem-calc(3);
+  right: 0.1rem;
+  bottom: -0.3rem;
+  left: 0.1rem;
+  height: 0.3rem;
   background-color: #d90815;
   transform: scaleX(0);
   transform-origin: 100% 50%;
@@ -1165,7 +1167,7 @@ NAV
   font-size: 1.6rem;
 }
 .nav__social .nav__link:before {
-  height: rem-calc(2);
+  height: 0.2rem;
 }
 
 /******************************************
@@ -1241,7 +1243,7 @@ POST
 .post__category + .post__category:before {
   display: inline-block;
   content: ",";
-  margin-right: rem-calc(4);
+  margin-right: 0.4rem;
 }
 
 .post pre,
@@ -1251,20 +1253,20 @@ POST
   border-radius: 0;
 }
 .post pre {
-  padding: rem-calc(16 20);
+  padding: 1.6rem 2rem;
 }
 .post pre code {
   padding: 0;
   color: #393434;
 }
 .post code {
-  padding: rem-calc(3 6);
+  padding: 0.3rem 0.6rem;
   color: #d90815;
   font-size: 1.6rem;
 }
 .post blockquote {
-  margin: rem-calc(30 0);
-  padding: rem-calc(0 0 0 30);
+  margin: 3rem 0;
+  padding: 0 0 0 3rem;
   border-left: 10px solid #d90815;
   color: #393434;
 }
@@ -1417,20 +1419,20 @@ POST
 }
 
 .post__date {
-  margin-bottom: rem-calc(10);
+  margin-bottom: 1rem;
   font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 700;
   font-style: italic;
 }
 
 .post__categories {
-  margin-bottom: rem-calc(30);
+  margin-bottom: 3rem;
 }
 
 .post__content pre code,
 .post__content blockquote > * {
   display: block;
-  margin-bottom: rem-calc(30);
+  margin-bottom: 3rem;
 }
 
 .post__content p {

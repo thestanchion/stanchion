@@ -1,26 +1,5 @@
 @use '../variables' as *;
-/******************************************
-LOGO
-******************************************/
-// .logo,
-// .logo:visited {
-//     display: inline-block;
-//     margin-bottom: rem-calc(50);
-//     padding-bottom: rem-calc(5);
-//     @include title-font-black;
-//     font-size: 4rem;
-//     line-height: 1;
-//     color: $black;
-//     border-bottom: 5px solid $black;
-// }
 
-// @include bp_max(600) {
-//     .logo {
-//         margin-bottom: rem-calc(30);
-//         font-size: 3rem;
-//         border-bottom-width: rem-calc(3);
-//     }
-// }
 
 .header-logo {
     a {

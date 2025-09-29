@@ -19,7 +19,12 @@ It's going to be great for people's mental state to have sport back in our lives
 
 It looks like the majority of Premier League games are going to be televised which is ace, but it'll be a strange old watch if German football's return is anything to go by.
 
-<picture class="image__full-width"> <img src="/img/2020-05-21-schalke-subs.jpg" alt="Covid Subs" /> <figcaption>Schalke substitutes take their socially distanced seats in the stands</figcaption></picture>
+<picture class="image__full-width">
+
+  <img src="/img/2020-05-21-schalke-subs.jpg" alt="Covid Subs" />
+  <figcaption>Schalke substitutes take their socially distanced seats in the stands</figcaption>
+
+</picture>
 
 Empty stadiums are a given. No questions asked on that one, anyone with a brain can see that's the right decision for the rest of this season and I'd say probably even the majority of next season too.
 

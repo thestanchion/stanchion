@@ -6,15 +6,8 @@
 		<title>{{ title | default: "The Stanchion" }}</title>
 		{% include "head.html" %}
 	</head>
-	<body>
-		<div class="hero hero--home">
-            <h1 class="heading--page header-logo">
-                <a href="/" alt="The Stanchion">
-					<img src="img/logo-v1.png" alt="The Stanchion logo" />
-                    <span>The</span> Stanchion
-                </a>
-            </h1>
-        </div>
+	<body class="home">
+		{% include "header.html" %}
         {% include "nav.html" %}
         {% include "nav-trigger.html" %}
 		<main>
@@ -22,5 +15,6 @@
 		</main>
 
 		{% include "footer-scripts.html" %}
+		{% include "footer.html" %}
 	</body>
 </html>

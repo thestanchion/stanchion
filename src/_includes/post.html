@@ -9,6 +9,8 @@
 </head>
 
 <body>
+	{% include "nav.html" %}
+	{% include "nav-trigger.html" %}
 	<header class="hero post-hero" style="background-image: url(/img/{{ hero }});">
 		<a href="/" class="heading--siteTitle header-logo" alt="The Stanchion">
 			<img src="/img/logo-v1_white.png" alt="The Stanchion logo" />
@@ -38,6 +40,7 @@
 	</article>
 
 	{% include "footer-scripts.html" %}
+	{% include "footer.html" %}
 </body>
 
 </html>
