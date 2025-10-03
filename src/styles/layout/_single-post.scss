@@ -68,6 +68,15 @@ POST
         margin: 0 -3rem 2rem 3rem;
     }
 
+    figcaption {
+        margin-top: 1rem;
+        font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 1.4rem;
+        font-style: italic;
+        font-weight: 300;
+        color: $grey;
+    }
+
     @media (max-width: 800px) {
         .left-image,
         .right-image {
@@ -94,15 +103,6 @@ POST
         position: relative;
         left: 50%;
         transform: translateX( -50% );
-    }
-
-    figcaption {
-        margin-top: 1rem;
-        font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
-        font-size: 1.4rem;
-        font-style: italic;
-        font-weight: 300;
-        color: $grey;
     }
 
     @media (max-width: 800px) {

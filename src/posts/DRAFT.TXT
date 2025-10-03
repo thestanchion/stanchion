@@ -1,0 +1,12 @@
+---
+
+date: YYYY-MM-DD
+author: Ash
+title: TITLE
+published: false
+categories: general
+subtitle: Subtitle
+hero: "HERO.jpg"
+hero_source: SOURCE.COM
+
+---

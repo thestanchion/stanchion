@@ -1475,6 +1475,14 @@ POST
   float: right;
   margin: 0 -3rem 2rem 3rem;
 }
+.post__content figcaption {
+  margin-top: 1rem;
+  font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 300;
+  color: #888;
+}
 @media (max-width: 800px) {
   .post__content .left-image,
   .post__content .right-image {
@@ -1500,14 +1508,6 @@ POST
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-}
-.image__full-width figcaption {
-  margin-top: 1rem;
-  font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 1.4rem;
-  font-style: italic;
-  font-weight: 300;
-  color: #888;
 }
 @media (max-width: 800px) {
   .image__full-width img {
