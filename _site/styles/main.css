@@ -1330,6 +1330,9 @@ POST LIST
 .post-list__item:hover {
   background-color: transparent;
 }
+.post-list__item:hover .heading--post {
+  text-shadow: 0 0 3px black;
+}
 .post-list__item:first-child {
   grid-column-start: 1;
   grid-column-end: 3;

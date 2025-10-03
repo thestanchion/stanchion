@@ -41,6 +41,10 @@ POST LIST
 
         &:hover {
             background-color: transparent;
+
+            .heading--post {
+                text-shadow: 0 0 3px black;
+            }
         }
 
         &:first-child {
