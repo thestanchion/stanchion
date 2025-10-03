@@ -30,7 +30,7 @@ My biggest frustration is that we actually have a very good squad of players if 
 
 <picture class="">
   <img src="/img/united-team.png" alt="A Manchester United team using 4-2-3-1" />
-  <figcaption>GOAL.com</figcaption>
+  <figcaption>A Manchester United team using 4-2-3-1 with the current squad</figcaption>
 </picture>
 
 <br/>
