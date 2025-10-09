@@ -1,7 +1,7 @@
 ---
 title: New Kit New England?
 date: 2010-09-07
-categories: england
+tags: england
 hero: eng-2010.jpg
 author: Ash
 published: true

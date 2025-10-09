@@ -18,7 +18,7 @@
 		</a>
 		<h1 class="heading--page">{{ title | escape }}</h1>
 		<p class="post__date">
-			<span class="post__category">{{ categories | replace: '-', ' ' | capitalize }}</span>
+			<span class="post__category"><a href="/tags/{{ tags | replace: 'post', '' }}">{{ tags | replace: 'post', '' | replace: '-', ' ' | capitalize }}</a></span>
 			<time class="dt-published" datetime="{{ date | date_to_xmlschema }}" itemprop="datePublished">
 				{% assign date_format = "%b %-d, %Y" %}
 				{{ 	date | date: date_format }}

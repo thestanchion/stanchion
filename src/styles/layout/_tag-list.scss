@@ -1,0 +1,49 @@
+@use '../variables' as *;
+.tag-list {
+    display: grid;
+    margin: 0 2rem;
+    padding: 0;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    list-style: none;
+
+    @media (max-width: 1200px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (max-width: 850px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 850px) {
+        grid-template-columns: repeat(1, 1fr);
+        gap: .6rem;
+    }
+
+    &__item {
+        margin: 0;
+        padding: 0;
+    }
+
+    &__link {
+        display: block;
+        padding: 2rem 1.6rem;
+        background-color: $black;
+        @include title-font-heavy;
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        color: $white;
+
+        &:hover {
+            background-color: $primary-colour;
+            text-decoration: none;
+            color: $white;
+        }
+    }
+
+    .post__date {
+        font-size: 1.2rem;
+        border: 0;
+        justify-content: left;
+    }
+}

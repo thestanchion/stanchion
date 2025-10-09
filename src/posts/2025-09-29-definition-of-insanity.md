@@ -4,7 +4,7 @@ date: 2025-09-29
 author: Ash
 title: The Definition of Insanity
 published: true
-categories: manchester-united
+tags: manchester-united
 subtitle: "...is doing the same thing over and over again and expecting different results."
 hero: "amorim.jpg"
 hero_source: football365.com

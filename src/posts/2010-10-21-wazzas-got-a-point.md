@@ -2,7 +2,7 @@
 
 title: Wazza's got a point
 date: 2010-10-21
-categories: manchester-united
+tags: manchester-united
 hero: rooney.jpg
 author: Ash
 published: true

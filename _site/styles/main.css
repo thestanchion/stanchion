@@ -635,10 +635,6 @@ a:hover {
   text-decoration: none;
 }
 
-a:visited {
-  color: white;
-}
-
 img {
   max-width: 100%;
 }
@@ -883,14 +879,12 @@ h6 {
 .heading--site {
   font-size: 14vmin;
 }
-
 .heading--tagline {
   display: inline;
   padding-top: 1rem;
   font-size: 4vmin;
   border-top: 5px solid #fefefe;
 }
-
 .heading--page {
   font-size: 9rem;
   margin-bottom: 5rem;
@@ -907,25 +901,22 @@ h6 {
     font-size: 3rem;
   }
 }
-
 .heading--section {
+  margin-left: 2rem;
+  margin-right: 2rem;
   font-size: 2.4rem;
-  color: #58b8ce;
   margin-bottom: 3rem;
 }
-
 .heading--post {
   font-size: 2.6rem;
   color: #000;
   margin: 0 0 1rem;
 }
-
 .heading--title {
   font-size: 3.4rem;
 }
-
 .heading--subtitle,
-h6 {
+.heading h6 {
   font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 2rem;
   font-style: italic;
@@ -935,17 +926,16 @@ h6 {
 }
 @media (max-width: 800px) {
   .heading--subtitle,
-  h6 {
+  .heading h6 {
     line-height: 1.4;
   }
 }
 @media (max-width: 500px) {
   .heading--subtitle,
-  h6 {
+  .heading h6 {
     font-size: 1.8rem;
   }
 }
-
 .heading--source {
   display: inline-block;
   margin-top: 1rem;
@@ -960,7 +950,6 @@ h6 {
 .heading--source span {
   font-weight: 300;
 }
-
 .heading--siteTitle {
   position: absolute;
   left: 2rem;
@@ -971,6 +960,20 @@ h6 {
   font-size: 2.4rem;
   text-transform: uppercase;
   color: #fff;
+}
+.heading--tag-listing {
+  position: sticky;
+  top: 8rem;
+  z-index: 1;
+  margin-bottom: 1.8rem;
+  padding-bottom: 1.2rem;
+  background-color: white;
+  text-align: right;
+}
+@media (max-width: 800px) {
+  .heading--tag-listing {
+    top: 6rem;
+  }
 }
 
 /******************************************
@@ -1131,7 +1134,7 @@ NAV
   font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 700;
   font-style: italic;
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
 }
 .nav__link:visited {
@@ -1380,9 +1383,6 @@ POST LIST
   padding: 2rem;
   color: #fefefe;
 }
-.post-list__link:visited {
-  color: #fefefe;
-}
 .post-list__link h3 {
   color: #fefefe;
   margin: 0;
@@ -1414,6 +1414,14 @@ POST
 ******************************************/
 .heading__page--single {
   color: #000;
+}
+
+.post-hero a {
+  color: #fefefe;
+}
+.post-hero a:hover {
+  color: #fefefe;
+  text-decoration: underline;
 }
 
 .post__date,
@@ -1518,4 +1526,54 @@ POST
     transform: none;
     max-width: 100vw;
   }
+}
+
+.tag-list {
+  display: grid;
+  margin: 0 2rem;
+  padding: 0;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  list-style: none;
+}
+@media (max-width: 1200px) {
+  .tag-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 850px) {
+  .tag-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 850px) {
+  .tag-list {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.6rem;
+  }
+}
+.tag-list__item {
+  margin: 0;
+  padding: 0;
+}
+.tag-list__link {
+  display: block;
+  padding: 2rem 1.6rem;
+  background-color: #000;
+  font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #fefefe;
+}
+.tag-list__link:hover {
+  background-color: #d90815;
+  text-decoration: none;
+  color: #fefefe;
+}
+.tag-list .post__date {
+  font-size: 1.2rem;
+  border: 0;
+  justify-content: left;
 }

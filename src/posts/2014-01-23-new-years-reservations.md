@@ -2,7 +2,7 @@
 
 title: New year's reservations
 date: 2014-01-23T10:00:36.000+00:00
-categories: manchester-united
+tags: manchester-united
 hero: pat.jpg
 author: Ash
 published: true

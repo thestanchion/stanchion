@@ -2,7 +2,7 @@
 
 title: Why I quite like Luis Suarez
 date: 2013-01-29T10:00:36.000+00:00
-categories: premier-league
+tags: premier-league
 hero: suarez-2.jpg
 author: Ash
 subtitle: If you know that I’m a Man United fan this might come as a surprise, but

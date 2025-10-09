@@ -2,7 +2,7 @@
 
 title: Weird moves
 date: 2011-11-18T10:00:36.000+00:00
-categories: transfers
+tags: transfers
 hero: bent.jpg
 author: Ash
 published: true

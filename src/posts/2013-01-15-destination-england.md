@@ -2,7 +2,7 @@
 
 title: 'Destination: England?'
 date: 2013-01-15T10:00:36.000+00:00
-categories: premier-league
+tags: premier-league
 hero: mourinho.jpg
 author: Ash
 subtitle: If you believe what you read in the papers, both Jose Mourinho and Pep Guardiola

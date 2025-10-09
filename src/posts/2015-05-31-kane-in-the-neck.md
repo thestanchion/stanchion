@@ -2,7 +2,7 @@
 
 title: Kane in the neck
 date: 2015-05-31T10:00:36.000+00:00
-categories: tottenham
+tags: england
 hero: harry-kane.jpg
 author: Ash
 published: true

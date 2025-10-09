@@ -2,7 +2,7 @@
 
 title: Ballon S'nore
 date: 2013-01-10T10:00:36.000+00:00
-categories: awards
+tags: awards
 hero: messi.jpg
 author: Ash
 published: true

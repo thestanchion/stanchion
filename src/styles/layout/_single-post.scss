@@ -5,6 +5,17 @@ POST
 .heading__page--single {
     color: $black;
 }
+
+.post-hero {
+    a {
+        color: $white;
+
+        &:hover {
+            color: $white;
+            text-decoration: underline;
+        }
+    }
+}
 .post__date,
 .post__categories {
     text-align: center;

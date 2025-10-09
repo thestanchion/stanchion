@@ -2,7 +2,7 @@
 
 title: Home and Away
 date: 2014-10-14T10:00:36.000+00:00
-categories: premier-league
+tags: premier-league
 hero: plough-lane.jpg
 author: Ash
 published: true

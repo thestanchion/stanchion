@@ -2,7 +2,7 @@
 
 title: We need second yellow appeals
 date: 2011-01-20T10:00:36.000+00:00
-categories: discipline
+tags: discipline
 hero: rafa-red.jpg
 author: Ash
 published: true

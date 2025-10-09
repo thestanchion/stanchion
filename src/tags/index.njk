@@ -1,0 +1,17 @@
+---
+layout: "home.html"
+title: "Tags"
+---
+
+<h1 class="heading--section heading--tag-listing">All tags</h1>
+
+<ul class="tag-list">
+  {% for tag in collections.tagList %}
+    <li class="tag-list__item">
+      <a href="/tags/{{ tag | slug }}/" class="tag-list__link heading--post">
+        {{ tag | replace('-', ' ') }}
+        <span class="post__date">{{ collections.tagMap[tag] | length }} posts</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

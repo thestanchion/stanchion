@@ -2,7 +2,7 @@
 
 title: Is Hawkeye a good thing for football?
 date: 2013-08-16T10:00:36.000+00:00
-categories: technology
+tags: technology
 hero: lampard.jpg
 author: Ash
 published: true

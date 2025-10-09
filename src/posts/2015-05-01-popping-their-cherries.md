@@ -2,7 +2,7 @@
 
 title: Popping their cherries
 date: 2012-04-18T10:00:36.000+00:00
-categories: premier-league
+tags: premier-league
 hero: bmouth.jpg
 author: Ash
 published: true

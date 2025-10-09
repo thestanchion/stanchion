@@ -2,7 +2,7 @@
 
 title: Switching allegiances
 date: 2017-11-13T10:00:36.000+00:00
-categories: england
+tags: england
 hero: england-u17.jpg
 subtitle: I don’t understand how it is that footballers can play an international
   friendly for one country, but would still be eligible to play for another in competitive

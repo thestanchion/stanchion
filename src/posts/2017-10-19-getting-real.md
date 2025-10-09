@@ -4,7 +4,7 @@ date: 2017-10-18T23:00:00.000+00:00
 author: Ash
 title: Getting real
 published: true
-categories: england
+tags: england
 subtitle: 'Ok let’s get this straight from the off: England are an average international
   team, and as soon as the public gets that into their collective head we can start
   to actually enjoy watching them again.'

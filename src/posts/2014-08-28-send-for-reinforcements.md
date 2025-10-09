@@ -2,7 +2,7 @@
 
 title: Send for reinforcements
 date: 2014-08-28T10:00:36.000+00:00
-categories: manchester-united
+tags: manchester-united
 hero: united-swansea.jpg
 author: Ash
 published: true

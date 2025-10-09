@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: "/about/"
-categories: general
+tags: general
 date: 2019-09-19T11:27:35.000+00:00
 subtitle: I don't know about you, but I love football.
 author: Ash

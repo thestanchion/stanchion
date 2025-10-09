@@ -3,7 +3,7 @@ date: 2021-02-10T08:38:50.000+00:00
 author: Ash
 title: What does Anthony Martial actually offer?
 published: true
-categories: manchester-united
+tags: manchester-united
 subtitle: Poor finishing, a major lack of effort and desire, I don't understand why
   the United fanbase has such big affection for Tony Marshall.
 hero: "/2021-02-17-0_gettyimages-1296038986.jpeg"

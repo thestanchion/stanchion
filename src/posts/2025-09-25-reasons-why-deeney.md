@@ -4,9 +4,10 @@ date: 2025-09-25
 author: Ash
 title: "Reasons Why: Here's Hogg.....DEENEEYYYYY!!"
 published: false
-categories: reasons-why
+tags: reasons-why
 subtitle: The highs and lows of the game, encapsulated into one glorious 30 second period of absolute mayhem
 hero: "deeney.jpg"
 hero_source: starsandstripesfc.com
 
 ---
+https://www.nytimes.com/athletic/6699982/2025/10/08/manchester-united-jim-ratcliffe-ruben-amorim/

@@ -4,7 +4,7 @@ date: 2020-05-18T10:59:51.000+00:00
 author: Ash
 title: Football is back - I'm not sure it should be...
 published: true
-categories: covid
+tags: covid
 subtitle: It seems wrong somehow that football feels the need to return already when
   hundreds of people are still losing their lives every day.
 hero: "/2020-05-18-dortmund-schalke.jpg"

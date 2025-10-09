@@ -2,7 +2,7 @@
 
 title: Not as easy as you thought?
 date: 2017-01-16T10:00:36.000+00:00
-categories: man-city
+tags: premier-league
 hero: lukaku.jpg
 author: Ash
 published: true

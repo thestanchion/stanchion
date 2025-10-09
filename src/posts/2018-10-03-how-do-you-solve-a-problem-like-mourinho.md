@@ -2,7 +2,7 @@
 
 title: How do you solve a problem like Mourinho?
 date: 2018-10-03T07:00:36.000+00:00
-categories: manchester-united
+tags: manchester-united
 hero: mourinho-valencia.jpg
 author: Ash
 published: true

@@ -2,7 +2,7 @@
 
 title: You're 'ard mate
 date: 2017-03-07T10:00:36.000+00:00
-categories: discipline
+tags: discipline
 hero: zlatan-mings.jpg
 author: Ash
 published: true

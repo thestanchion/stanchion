@@ -2,7 +2,7 @@
 
 title: Free Agents FC
 date: 2017-02-02T10:00:36.000+00:00
-categories: transfers
+tags: transfers
 hero: bargains.jpg
 author: Ash
 subtitle: The transfer window has been shut for a week now, but clubs can still sign

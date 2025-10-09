@@ -4,7 +4,7 @@ date: YYYY-MM-DD
 author: Ash
 title: TITLE
 published: false
-categories: general
+tags: general
 subtitle: Subtitle
 hero: "HERO.jpg"
 hero_source: SOURCE.COM
