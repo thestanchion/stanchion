@@ -10,4 +10,3 @@ hero: "deeney.jpg"
 hero_source: starsandstripesfc.com
 
 ---
-https://www.nytimes.com/athletic/6699982/2025/10/08/manchester-united-jim-ratcliffe-ruben-amorim/
