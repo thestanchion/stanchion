@@ -1387,6 +1387,11 @@ POST LIST
 .post-list__item:hover .heading--post {
   text-shadow: 0 0 3px black;
 }
+@media (hover: none) and (pointer: coarse) {
+  .post-list__item:hover {
+    background-color: #d90815;
+  }
+}
 .post-list__link {
   display: flex;
   flex-direction: column;
@@ -1461,7 +1466,7 @@ POST LIST
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 4;
   }
   .home .post-list__item:first-child h3 {
     font-size: 2rem;

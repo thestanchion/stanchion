@@ -35,7 +35,7 @@ POST LIST
         justify-content: flex-end;
         margin: 0;
         padding: 0;
-        background-color: #d90815;
+        background-color: $primary-colour;
         background-blend-mode: multiply;
         background-position: center;
         background-size: cover;
@@ -46,6 +46,10 @@ POST LIST
 
             .heading--post {
                 text-shadow: 0 0 3px black;
+            }
+
+            @media (hover: none) and (pointer: coarse) {
+                background-color: $primary-colour;
             }
         }
     }
