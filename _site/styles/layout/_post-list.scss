@@ -21,9 +21,10 @@ POST LIST
         }
 
         @media (max-width: 600px) {
+            grid-gap: 1.2rem;
             grid-template-columns: 1fr;
-            grid-template-rows: 20rem;
-            grid-auto-rows: 20rem;
+            grid-template-rows: 16rem;
+            grid-auto-rows: 16rem;
         }
     }
 
@@ -61,7 +62,10 @@ POST LIST
             }
 
             @media (max-width: 600px) {
-                grid-column-end: auto;
+                grid-row-end: 3;
+                grid-row-start: 1;
+                grid-column-start: 1;
+                grid-column-end: 1;
             }
         }
 
@@ -116,5 +120,9 @@ POST LIST
             text-align: left;
             border: 0;
         }
+    }
+
+    @media (max-width: 600px) {
+        margin: 0 1.2rem;
     }
 }

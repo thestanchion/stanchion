@@ -3,6 +3,7 @@
 POST LIST
 ******************************************/
 .post-list {
+    $this: &;
     margin: 0 2rem;
     padding: 0;
 
@@ -22,8 +23,9 @@ POST LIST
 
         @media (max-width: 600px) {
             grid-template-columns: 1fr;
-            grid-template-rows: 20rem;
-            grid-auto-rows: 20rem;
+            grid-template-rows: 12rem;
+            grid-auto-rows: 12rem;
+            grid-gap: 1.2rem;
         }
     }
 
@@ -44,42 +46,6 @@ POST LIST
 
             .heading--post {
                 text-shadow: 0 0 3px black;
-            }
-        }
-
-        &:first-child {
-            grid-column-start: 1;
-            grid-column-end: 3;
-
-            grid-row-start: 1;
-            grid-row-end: 3;
-
-            @media (max-width: 1000px) {
-                grid-column-end: 3;
-                grid-row-start: auto;
-                grid-row-end: auto;
-            }
-
-            @media (max-width: 600px) {
-                grid-column-end: auto;
-            }
-        }
-
-        &:nth-child( 2 ) {
-            grid-column-start: 3;
-            grid-column-end: 3;
-            grid-row-start: 1;
-            grid-row-end: 3;
-
-            @media (max-width: 1300px) {
-                grid-row-end: 2;
-            }
-
-            @media (max-width: 1000px) {
-                grid-column-start: auto;
-                grid-column-end: auto;
-                grid-row-start: auto;
-                grid-row-end: auto;
             }
         }
     }
@@ -106,6 +72,10 @@ POST LIST
             @media (max-width: 700px) {
                 font-size: 2rem;
             }
+
+            @media (max-width: 600px) {
+                font-size: 1.4rem;
+            }
         }
 
         .post__date {
@@ -115,6 +85,67 @@ POST LIST
             font-size: 1.4rem;
             text-align: left;
             border: 0;
+
+            @media (max-width: 600px) {
+                margin: 0;
+            }
+        }
+
+        @media (max-width: 600px) {
+            padding: 1.2rem;
+        }
+    }
+
+    @media (max-width: 600px) {
+        margin: 0 1.2rem;
+    }
+}
+
+.home .post-list {
+    $this: &;
+
+    &__item {
+        &:first-child {
+            grid-column-start: 1;
+            grid-column-end: 3;
+
+            grid-row-start: 1;
+            grid-row-end: 3;
+
+            @media (max-width: 1000px) {
+                grid-column-end: 3;
+                grid-row-start: auto;
+                grid-row-end: auto;
+            }
+
+            @media (max-width: 600px) {
+                grid-column-start: 1;
+                grid-column-end: 1;
+                grid-row-start: 1;
+                grid-row-end: 3;
+
+                h3 {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        &:nth-child( 2 ) {
+            grid-column-start: 3;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+
+            @media (max-width: 1300px) {
+                grid-row-end: 2;
+            }
+
+            @media (max-width: 1000px) {
+                grid-column-start: auto;
+                grid-column-end: auto;
+                grid-row-start: auto;
+                grid-row-end: auto;
+            }
         }
     }
 }

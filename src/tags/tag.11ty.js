@@ -12,7 +12,7 @@ module.exports = class {
       // permalink for each generated tag page
       permalink: data => `/tags/${slugify(data.tag, { lower: true, strict: true })}/`,
       // pick whatever layout you have (or remove layout to return pure HTML)
-      layout: "home.html"
+      layout: "tag-listing.html"
     };
   }
 

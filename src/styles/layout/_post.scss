@@ -41,9 +41,12 @@ POST
             }
         }
 
-        @media (max-width: 800px) {
-
+        @media (max-width: 600px) {
             height: 6rem;
+
+            .heading--page {
+                font-size: 1.6rem;
+            }
         }
     }
 }
@@ -69,6 +72,11 @@ POST
         background-color: #fff;
         margin-right: 12px;
         margin-left: 12px;
+
+        @media (max-width: 600px) {
+            height: 18px;
+            width: 3px;
+        }
     }
 }
 .post__category + .post__category:before {
@@ -113,7 +121,8 @@ POST
         }
 
         @media (max-width: 600px) {
-            padding-left: 0;
+            padding-left: 1.6rem;
+            border-width: 6px;
         }
     }
 }

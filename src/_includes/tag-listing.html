@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{{ title | default: "The Stanchion" }}</title>
+		{% include "head.html" %}
+	</head>
+	<body class="tag-listing">
+		{% include "header.html" %}
+        {% include "nav.html" %}
+        {% include "nav-trigger.html" %}
+		<main>
+			{{ content }}
+		</main>
+
+		{% include "footer-scripts.html" %}
+		{% include "footer.html" %}
+	</body>
+</html>

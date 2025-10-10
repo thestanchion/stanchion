@@ -37,6 +37,24 @@ h6 {
     font-size: 1.6rem;
 }
 
+@media (max-width: 600px) {
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.8rem;
+    }
+    h4 {
+        font-size: 1.6rem;
+    }
+    h5 {
+        font-size: 1.4rem;
+    }
+    h6 {
+        font-size: 1.2rem;
+    }
+}
+
 .heading {
     &--site {
         font-size: 14vmin;
@@ -69,6 +87,11 @@ h6 {
         margin-right: 2rem;
         font-size: 2.4rem;
         margin-bottom: 3rem;
+
+        @media (max-width: 600px) {
+            margin-left: 1.2rem;
+            margin-right: 1.2rem;
+        }
     }
 
     &--post {
@@ -95,7 +118,7 @@ h6 {
         }
 
         @media (max-width: 500px) {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
         }
     }
 
@@ -123,6 +146,10 @@ h6 {
         font-size: 2.4rem;
         text-transform: uppercase;
         color: #fff;
+
+        @media (max-width: 600px) {
+            font-size: 1.6rem;
+        }
     }
 
     &--tag-listing {
@@ -136,6 +163,11 @@ h6 {
 
         @media (max-width: 800px) {
             top: 6rem
+        }
+
+        @media (max-width: 600px) {
+            padding-bottom: 0.6rem;
+            font-size: 1.2rem;
         }
     }
 }

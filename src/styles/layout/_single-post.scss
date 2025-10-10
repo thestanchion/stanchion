@@ -23,6 +23,10 @@ POST
 .post__date {
     margin-bottom: 1rem;
     @include title-font-heavy;
+
+    @media (max-width: 600px) {
+        font-size: 1.2rem;
+    }
 }
 .post__categories {
     margin-bottom: 3rem;
@@ -80,6 +84,7 @@ POST
     }
 
     figcaption {
+        display: inline-block;
         margin-top: 1rem;
         font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
         font-size: 1.4rem;
@@ -105,7 +110,8 @@ POST
 }
 
 .image__full-width {
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin: 3rem 0;
 
     img {
