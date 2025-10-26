@@ -24,11 +24,21 @@ They put together a perfect counter attack down the right wing and Fernando Fore
 
 Cue pandemonium.
 
+<picture class="image__full-width">
+  <img src="/img/watford-celebrations.png" alt="Absolute scenes at Vicarage Road" />
+  <figcaption>mirror.co.uk</figcaption>
+</picture>
+
 Vicarage Road erupts. The place goes mad. Deeney rips off his shirt and runs to the crowd where he and the Watford players jump into the stands to celebrate. The fans  are losing their minds. There’s a pitch invasion. Watford fans are everywhere. 
 
 >“Do not scratch your eyes! You are really seeing the most extraordinary finish here!”
 
-The cameras briefly cut to Knockaert, hands on his knees in disbelief at what’s just happened. But you know the real reason they’re showing him is to emphasise the pure beauty of the justice that he’s just been served. 
+The cameras briefly cut to Knockaert, hands on his knees in disbelief at what’s just happened. But you know the real reason they’re showing him is to emphasise the pure beauty of the justice that he’s just been served.
+
+<picture class="image__full-width">
+  <img src="/img/leicester-defeat.jpg" alt="Anthonty Knockaert deflated after Watford's winner" />
+  <figcaption>Getty Images</figcaption>
+</picture>
 
 Leicester were about to make it to the promised land of Wembley, only to have that reality snatched away in the blink of an eye, and it’s Watford who now have a shot at making it to the Premier League.
 
@@ -42,4 +52,6 @@ There’s the double save from the penalty. There’s the actual goal itself. It
 
 The celebrations are mental. The commentary is perfect. This is everything that football can do to a person, contained in the most beautifully crazy 30 seconds.
 
-I’m not a Watford fan but I still get goosebumps every time I watch this goal, and it’s one of the biggest reasons why I love football.
+I’m not a Watford fan but I still get goosebumps every time I watch this goal. It's such a good example of everything that is good about the game, and that's why it’s one of the biggest reasons why I love football.
+
+<iframe width="560" height="400" src="https://www.youtube.com/embed/6TnKvlQ2h7s?si=-flJS4hoaCEBURwq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
