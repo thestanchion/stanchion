@@ -35,12 +35,12 @@ Vicarage Road erupts. The place goes mad. Deeney rips off his shirt and runs to 
 
 The cameras briefly cut to Knockaert, hands on his knees in disbelief at what’s just happened. But you know the real reason they’re showing him is to emphasise the pure beauty of the justice that he’s just been served.
 
+Leicester were about to make it to the promised land of Wembley, only to have that reality snatched away in the blink of an eye, and it’s Watford who now have a shot at making it to the Premier League.
+
 <picture class="image__full-width">
   <img src="/img/leicester-defeat.jpg" alt="Anthonty Knockaert deflated after Watford's winner" />
   <figcaption>Getty Images</figcaption>
 </picture>
-
-Leicester were about to make it to the promised land of Wembley, only to have that reality snatched away in the blink of an eye, and it’s Watford who now have a shot at making it to the Premier League.
 
 There are so many reasons why I love this moment.
 
