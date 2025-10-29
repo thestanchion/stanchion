@@ -9,7 +9,7 @@ layout: home.html
             <li class="post-list__item" style="background-image: url(/img/{{ post.data.hero }});">
                 <a class="post-list__link" href="{{ post.url }}">
                     {% if post.data.tags contains 'reasons-why' %}
-                        <span class="reasons-why-label reasons-why-label--small">Reasons Why</span>
+                        <span class="reasons-why__label reasons-why__label--small">Reasons Why</span>
                     {% endif %}
                     <h3 class="heading--post">{{ post.data.title | escape }}</h3>
                     {% assign date_format = "%b %-d, %Y" %}

@@ -1339,43 +1339,6 @@ POST
   }
 }
 
-.reasons-why-label {
-  position: relative;
-  z-index: 1;
-  display: block;
-  margin-bottom: 2rem;
-  padding: 0.8rem 1.2rem;
-  font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 900;
-  font-style: italic;
-  font-size: 2.4rem;
-  text-transform: uppercase;
-  color: #000;
-}
-.reasons-why-label::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -1.2rem;
-  width: calc(100% + 2.4rem);
-  height: 100%;
-  padding: 0.8rem 1.2rem;
-  background-color: #fefefe;
-  z-index: -1;
-  transform: skew(-8deg);
-}
-.reasons-why-label--small {
-  align-self: flex-start;
-  margin-bottom: 0.4rem;
-  padding: 0 0.4rem;
-  font-size: 1rem;
-}
-.reasons-why-label--small::before {
-  width: 100%;
-  padding: 0rem 0.4rem;
-  left: -0.4px;
-}
-
 /******************************************
 POST LIST
 ******************************************/
@@ -1703,4 +1666,67 @@ POST
   font-size: 1.2rem;
   border: 0;
   justify-content: left;
+}
+
+.reasons-why__promo {
+  margin-top: -3rem;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+  background-color: #000;
+  color: #fefefe;
+  font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.6rem;
+}
+.reasons-why__promo .wrapper {
+  margin: 0 auto;
+}
+@media (max-width: 600px) {
+  .reasons-why__promo {
+    font-size: 1.2rem;
+    padding: 1.6rem 0;
+  }
+}
+.reasons-why__label {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin-bottom: 2rem;
+  padding: 0.8rem 1.2rem;
+  font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  color: #000;
+}
+.reasons-why__label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -1.2rem;
+  width: calc(100% + 2.4rem);
+  height: 100%;
+  padding: 0.8rem 1.2rem;
+  background-color: #fefefe;
+  z-index: -1;
+  transform: skew(-8deg);
+}
+.reasons-why__label--small {
+  align-self: flex-start;
+  margin-bottom: 0.4rem;
+  padding: 0 0.8rem;
+  font-size: 1.4rem;
+}
+.reasons-why__label--small::before {
+  width: 100%;
+  padding: 0rem 0.4rem;
+  left: -0.4px;
+}
+@media (max-width: 600px) {
+  .reasons-why__label--small {
+    padding: 0 0.4rem;
+    font-size: 1rem;
+  }
 }
