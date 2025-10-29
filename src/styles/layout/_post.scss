@@ -126,3 +126,41 @@ POST
         }
     }
 }
+
+.reasons-why-label {
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin-bottom: 2rem;
+    padding: .8rem 1.2rem;
+    @include title-font-black;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    color: $black;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -1.2rem;
+        width: calc(100% + 2.4rem);
+        height: 100%;
+        padding: .8rem 1.2rem;
+        background-color: $white;
+        z-index: -1;
+        transform: skew(-8deg);
+    }
+
+    &--small {
+        align-self: flex-start;
+        margin-bottom: .4rem;;
+        padding: 0 0.4rem;
+        font-size: 1rem;
+
+        &::before {
+            width: 100%;
+            padding: 0rem 0.4rem;
+            left: -0.4px;
+        }
+    }
+}

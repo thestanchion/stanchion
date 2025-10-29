@@ -16,14 +16,19 @@
 			<img src="/img/logo-v1_white.png" alt="The Stanchion logo" />
 			<span>The</span> Stanchion
 		</a>
+		{% if tags contains 'reasons-why' %}
+			<span class="reasons-why-label">Reasons Why</span>
+		{% endif %}
 		<h1 class="heading--page">{{ title | escape }}</h1>
-		<p class="post__date">
-			<span class="post__category"><a href="/tags/{{ tags | replace: 'post', '' }}">{{ tags | replace: 'post', '' | replace: '-', ' ' | capitalize }}</a></span>
-			<time class="dt-published" datetime="{{ date | date_to_xmlschema }}" itemprop="datePublished">
-				{% assign date_format = "%b %-d, %Y" %}
-				{{ 	date | date: date_format }}
-			</time>
-		</p>
+		{% unless tags contains 'reasons-why' %}
+			<p class="post__date">
+				<span class="post__category"><a href="/tags/{{ tags | replace: 'post', '' }}">{{ tags | replace: 'post', '' | replace: '-', ' ' | capitalize }}</a></span>
+				<time class="dt-published" datetime="{{ date | date_to_xmlschema }}" itemprop="datePublished">
+					{% assign date_format = "%b %-d, %Y" %}
+					{{ 	date | date: date_format }}
+				</time>
+			</p>
+		{% endunless %}
 	</header>
 	<article class="post h-entry wrapper" itemscope itemtype="http://schema.org/BlogPosting">
 		<div class="post__content" itemprop="articleBody">
