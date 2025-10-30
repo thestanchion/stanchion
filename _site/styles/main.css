@@ -1713,11 +1713,22 @@ POST
   z-index: -1;
   transform: skew(-8deg);
 }
+@media (max-width: 600px) {
+  .reasons-why__label {
+    margin-bottom: 1rem;
+    padding: 0 0.4rem;
+    font-size: 1.2rem;
+  }
+  .reasons-why__label::before {
+    left: -0.4rem;
+    width: calc(100% + 0.8rem);
+  }
+}
 .reasons-why__label--small {
   align-self: flex-start;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.8rem;
   padding: 0 0.8rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 .reasons-why__label--small::before {
   width: 100%;
