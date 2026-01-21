@@ -1,26 +1,26 @@
 ---
 
-date: 2026-01-20
+date: 2026-01-21
 author: Ash
 title: "Why not Carrick?"
-published: false
+published: true
 tags: manchester-united
 subtitle: ...as long as he does well in the job until the end of the season, obviously. Other clubs give unproven managers a chance and often reap the rewards, so why are we so reluctant to do the same in England?"
 hero: "carrick-derby.jpg"
 hero_source: manchestereveningnews.co.uk
 
 ---
-To be claer, this is not me saying He has to have the job right now. I am saying that he should not be discounted just because he is who he is and he hasn't managed an elite club before. You look at other big teams - Barcelona being the main example - they've given the first team job of one of the biggest clubs in the world to people like Guardiola, Villanova and Xavi, when none of them had a huge amount of elite experience.
+To be clear, this is not me saying He has to have the job right now. I am saying that he should not be discounted just because he is who he is and he hasn't managed an elite club before. You look at other big teams - Barcelona being the main example - they've given the first-team job of one of the biggest clubs in the world to people like Guardiola, Villanova and Xavi, when none of them had a huge amount of elite experience.
 
 These were all given opportunities at _their_ club and they've gone on to do pretty big things. Especially in Guardiola's case - multiple Champions League winner at various clubs, but that's irrelevant. They've gone on to become those elite managers having not had the experience at the time. They obviously came up coaching within the club, they know what is demanded of those clubs, how those teams should play and what the fans expect.
 
-Carrick knows about all of that when it comes to United. He's obviously played for us for years and years in successful teams, around successful squads, full of characters and egos. He knows how to deal with all that sort of pressure and crucially for him, he's one of the calmest, most level-headed players that you've ever seen at the club. So he should be able to deal with all the noise.
+Carrick knows about all of that when it comes to United. He's obviously played for us for years and years in successful teams, around successful squads, full of characters and egos. He knows how to deal with all that sort of pressure and crucially for him he's one of the calmest, most level-headed players that you've ever seen at the club. So he should be able to deal with all the noise.
 
 His time at Middlesbrough didn't end well but he did have a successful time there overall. Obviously it ended badly, but most managers don't really leave a club when they're on the up, but that's not to say that he couldn't handle a club the size of United. How do you know unless he gets the chance?
 
-So again, I'm not trying to say he should definitely get the job. But I certainly don't think he should be discounted. Especially when some of the other names that are being chucked around Are people like Thomas Tuchel, who I would avoid like the plague.
+So again, I'm not trying to say he should definitely get the job. But I certainly don't think he should be discounted. Especially when some of the other names that are being chucked around are people like Thomas Tuchel, who I would avoid like the plague.
 
-Tuchel has been successful in lots of other places However, he hasn't stayed in the job longer than two years since 2016. It's unlikely he'd buck that trend if he came to United. He's probably more likely to be a bit spikey and get pissed off with the board in the same way that Amorim ended up getting pissed off with the board and leaving. If he's only going to be around for a couple of seasons, ok let's say he brings success in the first year, great, but he'll be gone after the second and then we're back to where we are right now anyway.
+Tuchel has been successful in lots of other places However, he hasn't stayed in the job longer than two years since 2016. It's unlikely he'd buck that trend if he came to United. He's probably more likely to be a bit spiky and get pissed off with the board in the same way that Amorim ended up getting pissed off with the board and leaving. If he's only going to be around for a couple of seasons, OK let's say he brings success in the first year, great, but he'll be gone after the second and then we're back to where we are right now anyway.
 
 What we want to see is obviously some success, but also a period of stability. So why not give it to Carrick and give him three, four years to build a team in his image. He knows the kind of football we want to play. The system and tactics that that requires. But more importantly he knows what the fans want. You saw that the other day against City - the crowd became the 12th man. We absolutely dominated them from start to finish because of the atmosphere as well as the way he set the team up.
 
